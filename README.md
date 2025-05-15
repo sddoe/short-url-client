@@ -34,11 +34,13 @@ A simple React application that lets users input long URLs and receive shortened
 ```bash
 git clone https://github.com/sddoe/short-url-client
 cd short-url-client
+```
 
 ### 3. Install Dependencies
 
 ```bash
 npm install
+```
 
 ### 4. Configure API Proxy
 
@@ -46,6 +48,7 @@ The frontend expects the Rails API to be running on http://localhost:3000. Make 
 
 ```bash
 "proxy": "http://localhost:3000",
+```
 
 ### 5. 🔗 Connecting to the Rails API
 
@@ -54,6 +57,7 @@ Ensure your Rails backend is running:
 ```bash
 cd ../sddoe-fs-challenge
 docker-compose up
+```
 
 By default, the backend will be available at http://localhost:3000.
 
@@ -63,5 +67,6 @@ Start the server:
 
 ```bash
 npm start
+```
 
 Make sure it runs at http://localhost:3001 port. If it runs in a different port (eg. http://localhost:5173) you will have to add it manually in the cors.rb file in the Rails API app
