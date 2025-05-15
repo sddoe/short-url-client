@@ -32,7 +32,7 @@ A simple React application that lets users input long URLs and receive shortened
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/sddoe/short-url-client
+git clone https://github.com/sddoe/short-url-client.git
 cd short-url-client
 ```
 
